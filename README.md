@@ -1,6 +1,6 @@
 # 🎮 **AdvancedGaming's RTSS Overlays** 🎮
 
-Welcome to a collection of custom RivaTuner Statistics Server (RTSS) overlays that I've created! These overlays can enhance your gaming and system monitoring experience.
+Welcome to a collection of custom RivaTuner Statistics Server (RTSS) overlays that I've created!
 
 ## 🔧 **How to Use:**
 

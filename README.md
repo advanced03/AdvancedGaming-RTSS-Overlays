@@ -17,7 +17,7 @@ A low profile overlay inspired by Overwatch.
 ![afbeelding](https://github.com/user-attachments/assets/d920ece8-a7d5-4642-bc6f-2fbf88fca656)
 
 ### 📊 **Advanced System Stats Overlay**
-Shows as many system stats as possible for the power user who wants to monitor everything.  
+Shows as many system stats as possible for the power user who wants to monitor everything. (the outlines are just because I selected everything)  
 ![afbeelding](https://github.com/user-attachments/assets/3f6595fb-f7cd-4f50-8c6e-802ef38cfae5)
 
 ### 🎮 **Xbox Gamebar-Inspired Overlay**

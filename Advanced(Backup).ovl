@@ -1,0 +1,1226 @@
+[Master]
+Implementation=2
+FontFace=Segoe UI Variable Display
+FontHeight=-8
+FontWeight=700
+ZoomRatio=4
+[Settings]
+Name=
+EnvVars=
+RefreshPeriod=1000
+EmbeddedImage=sample.png
+PingAddr=
+[General]
+Sources=34
+Tables=5
+Layers=78
+[Source0]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source1]
+Name=GPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source2]
+Name=GPU1 memory clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Source3]
+Name=GPU1 voltage
+Units=mV
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 voltage
+[Source4]
+Name=GPU1 temperature
+Units=�C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source5]
+Name=GPU1 fan tachometer
+Units=RPM
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 fan tachometer
+[Source6]
+Name=GPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source7]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source8]
+Name=GPU1 memory usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage
+[Source9]
+Name=RAM usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage
+[Source10]
+Name=RAM usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage percent
+[Source11]
+Name=Total RAM
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=Total RAM
+[Source12]
+Name=CPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU1 usage
+[Source13]
+Name=CPU2 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU2 usage
+[Source14]
+Name=CPU3 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU3 usage
+[Source15]
+Name=CPU4 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU4 usage
+[Source16]
+Name=CPU5 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU5 usage
+[Source17]
+Name=CPU6 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU6 usage
+[Source18]
+Name=CPU7 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU7 usage
+[Source19]
+Name=CPU8 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU8 usage
+[Source20]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source21]
+Name=CPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU1 usage
+[Source22]
+Name=CPU2 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU2 usage
+[Source23]
+Name=CPU3 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU3 usage
+[Source24]
+Name=CPU4 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU4 usage
+[Source25]
+Name=CPU5 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU5 usage
+[Source26]
+Name=CPU6 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU6 usage
+[Source27]
+Name=CPU7 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU7 usage
+[Source28]
+Name=CPU8 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU8 usage
+[Source29]
+Name=CPU temperature
+Units=�C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source30]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source31]
+Name=GPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source32]
+Name=GPU1 memory clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Source33]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU clock
+[Table0]
+Name=CPUCores
+ValueSize=80
+ValueAlignment=-3
+UnitsAlignment=10
+Lines=8
+Line0Name=C1
+Line0Color=FFFFFF
+Line0Cells=4
+Line0Cell0Source=CPU1 usage
+Line0Cell1Source=Core 0 Clock
+Line0Cell2Source=Core 0 VID
+Line0Cell3Source=Core 0
+Line1Name=C2
+Line1Color=FFFFFF
+Line1Cells=4
+Line1Cell0Source=CPU2 usage
+Line1Cell1Source=Core 1 Clock
+Line1Cell2Source=Core 1 VID
+Line1Cell3Source=Core 1
+Line2Name=C3
+Line2Color=FFFFFF
+Line2Cells=4
+Line2Cell0Source=CPU3 usage
+Line2Cell1Source=Core 2 Clock
+Line2Cell2Source=Core 2 VID
+Line2Cell3Source=Core 2
+Line3Name=C4
+Line3Color=FFFFFF
+Line3Cells=4
+Line3Cell0Source=CPU4 usage
+Line3Cell1Source=Core 3 Clock
+Line3Cell2Source=Core 3 VID
+Line3Cell3Source=Core 3
+Line4Name=C5
+Line4Color=FFFFFF
+Line4Cells=4
+Line4Cell0Source=CPU5 usage
+Line4Cell1Source=Core 4 Clock
+Line4Cell2Source=Core 4 VID
+Line4Cell3Source=Core 4
+Line5Name=C6
+Line5Color=FFFFFF
+Line5Cells=4
+Line5Cell0Source=CPU6 usage
+Line5Cell1Source=Core 5 Clock
+Line5Cell2Source=Core 5 VID
+Line5Cell3Source=Core 5
+Line6Name=C7
+Line6Color=FFFFFF
+Line6Cells=4
+Line6Cell0Source=CPU7 usage
+Line6Cell1Source=Core 6 Clock
+Line6Cell2Source=Core 6 VID
+Line6Cell3Source=Core 6
+Line7Name=C8
+Line7Color=FFFFFF
+Line7Cells=4
+Line7Cell0Source=CPU8 usage
+Line7Cell1Source=Core 7 Clock
+Line7Cell2Source=Core 7 VID
+Line7Cell3Source=Core 7
+[Table1]
+Name=CPUMisc
+ValueSize=80
+ValueAlignment=-6
+Lines=3
+Line0Name=Vcore
+Line0Color=FFFFFF
+Line0Cells=1
+Line0Cell0Source=Vcore
+Line1Name=Pwr
+Line1Color=FFFFFF
+Line1Cells=1
+Line1Cell0Source=CPU Package Power
+Line2Name=Fan
+Line2Color=FFFFFF
+Line2Cells=1
+Line2Cell0Source=CPUFan
+[Table2]
+Name=GPUMisc
+ValueSize=80
+ValueAlignment=-6
+Lines=6
+Line0Name=Vram
+Line0Color=FFFFFF
+Line0Cells=1
+Line0Cell0Source=GPU1 memory usage
+Line1Name=Core
+Line1Color=FFFFFF
+Line1Cells=1
+Line1Cell0Source=GPU1 clock
+Line2Name=Mem
+Line2Color=FFFFFF
+Line2Cells=1
+Line2Cell0Source=GPU1 memory clock
+Line3Name=Volt
+Line3Color=76B900
+Line3Cells=1
+Line3Cell0Source=GPU1 voltage
+Line4Name=Pwr
+Line4Color=FFFFFF
+Line4Cells=1
+Line4Cell0Source=GPU1 power
+Line5Name=Fan
+Line5Color=FFFFFF
+Line5Cells=1
+Line5Cell0Source=GPU1 fan tachometer
+[Table3]
+Name=Fps
+ValueSize=80
+Lines=5
+Line0Name=Min
+Line0Color=FFFFFF
+Line0Cells=1
+Line0Cell0Source=Framerate Min
+Line1Name=Max
+Line1Color=FFFFFF
+Line1Cells=1
+Line1Cell0Source=Framerate Max
+Line2Name=Avg
+Line2Color=FFFFFF
+Line2Cells=1
+Line2Cell0Source=Framerate Avg
+Line3Name=1%
+Line3Color=FFFFFF
+Line3Cells=1
+Line3Cell0Source=Framerate 1% Low
+Line4Name=.1%
+Line4Color=FFFFFF
+Line4Cells=1
+Line4Cell0Source=Framerate 0.1% Low
+[Table4]
+Name=Frametime
+ValueSize=80
+Lines=2
+Line0Name=1% Low
+Line0Color=FFFFFF
+Line0Cells=1
+Line0Cell0Source=Framerate 1% Low
+Line1Name=.1% Low
+Line1Color=FFFFFF
+Line1Cells=1
+Line1Cell0Source=Framerate 0.1% Low
+[Layer0]
+Name=
+Text=
+PositionX=0
+PositionY=0
+ExtentX=142
+ExtentY=212
+ExtentOrigin=0
+FixedAlignment=1
+BgndColor=4E000000
+[Layer1]
+Name=CPU
+Text=%CPUShort%
+PositionX=1
+PositionY=0
+ExtentX=57
+ExtentY=7
+ExtentOrigin=0
+TextColor=ED1C24
+[Layer2]
+Name=
+Text=%CPU usage%
+PositionX=106
+PositionY=29
+ExtentX=16
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer3]
+Name=
+Text=<G=GPU1 usage,0,0,1,0,100,10>
+PositionX=1
+PositionY=77
+ExtentX=69
+ExtentY=21
+ExtentOrigin=0
+TextColor=76B900
+RefreshPeriod=500
+[Layer4]
+Name=
+Text=%CPU temperature%
+PositionX=106
+PositionY=17
+ExtentX=16
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FF00,0,70,FF8000,70,90,FF0000,90,200(CPU temperature,1)
+[Layer5]
+Name=
+Text=%GPU%
+PositionX=1
+PositionY=57
+ExtentX=48
+ExtentY=10
+ExtentOrigin=3
+TextColor=76B900
+[Layer6]
+Name=
+Text=%GPU1 usage%
+PositionX=55
+PositionY=62
+ExtentX=15
+ExtentY=14
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer7]
+Name=
+Text=%Framerate% FPS
+PositionX=1
+PositionY=144
+ExtentX=20
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF,59,999999,FF8000,46,58,FF0000,0,45(Framerate,1)
+[Layer8]
+Name=
+Text=<G=Framerate,0,0,1,0,240,10>
+PositionX=1
+PositionY=154
+ExtentX=69
+ExtentY=12
+ExtentOrigin=0
+TextColor=FFFFFF
+RefreshPeriod=500
+[Layer9]
+Name=
+Text=%Frametime% ms
+PositionX=1
+PositionY=182
+ExtentX=23
+ExtentY=5
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer10]
+Name=
+Text=<G=Frametime,0,0,1,0,50,10>
+PositionX=1
+PositionY=191
+ExtentX=69
+ExtentY=21
+ExtentOrigin=0
+TextColor=FFFFFF
+RefreshPeriod=500
+[Layer11]
+Name=
+Text=RAM
+PositionX=1
+PositionY=107
+ExtentX=56
+ExtentY=10
+ExtentOrigin=3
+TextColor=80FF
+[Layer12]
+Name=
+Text=Driver
+PositionX=81
+PositionY=118
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+Size=85
+TextColor=76B900
+[Layer13]
+Name=
+Text=%RAM usage% MB / %Total RAM% MB
+PositionX=1
+PositionY=119
+ExtentX=67
+ExtentY=9
+ExtentOrigin=4
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer14]
+Name=
+Text=Framerate
+PositionX=1
+PositionY=134
+ExtentX=51
+ExtentY=8
+ExtentOrigin=3
+FixedAlignment=1
+Size=90
+TextColor=FFFF80
+[Layer15]
+Name=
+Text=%GPU1 clock%
+PositionX=106
+PositionY=73
+ExtentX=16
+ExtentY=10
+ExtentOrigin=5
+FixedAlignment=1
+Size=90
+TextColor=FFFFFF
+[Layer16]
+Name=
+Text=%GPU1 memory clock%
+PositionX=106
+PositionY=84
+ExtentX=16
+ExtentY=10
+ExtentOrigin=5
+FixedAlignment=1
+Size=90
+TextColor=FFFFFF
+[Layer17]
+Name=
+Text=%GPU1 voltage%
+PositionX=106
+PositionY=107
+ExtentX=10
+ExtentY=9
+ExtentOrigin=5
+FixedAlignment=1
+Size=90
+TextColor=FFFFFF
+[Layer18]
+Name=
+Text=Mhz
+PositionX=106
+PositionY=73
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer19]
+Name=
+Text=mV
+PositionX=106
+PositionY=107
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer20]
+Name=
+Text=%GPU1 power%
+PositionX=106
+PositionY=96
+ExtentX=16
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=90
+TextColor=FFFFFF
+[Layer21]
+Name=
+Text=W
+PositionX=106
+PositionY=96
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer22]
+Name=
+Text=Core
+PositionX=81
+PositionY=73
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=76B900
+[Layer23]
+Name=
+Text=Volt
+PositionX=81
+PositionY=96
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=76B900
+[Layer24]
+Name=
+Text=TGP
+PositionX=81
+PositionY=107
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=76B900
+[Layer25]
+Name=
+Text=Res
+PositionX=81
+PositionY=133
+ExtentX=21
+ExtentY=9
+ExtentOrigin=0
+Size=85
+TextColor=FFFF80
+[Layer26]
+Name=
+Text=Min
+PositionX=81
+PositionY=154
+ExtentX=21
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFF80
+[Layer27]
+Name=
+Text=Max
+PositionX=81
+PositionY=166
+ExtentX=21
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFF80
+[Layer28]
+Name=
+Text=Avg
+PositionX=81
+PositionY=178
+ExtentX=21
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFF80
+[Layer29]
+Name=
+Text=1%
+PositionX=81
+PositionY=190
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFF80
+[Layer30]
+Name=
+Text=FPS
+PositionX=106
+PositionY=154
+ExtentX=25
+ExtentY=9
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer31]
+Name=
+Text=.1%
+PositionX=81
+PositionY=202
+ExtentX=21
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFF80
+[Layer32]
+Name=
+Text=<FRMIN>
+PositionX=106
+PositionY=154
+ExtentX=15
+ExtentY=8
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer33]
+Name=
+Text=<FRMAX>
+PositionX=106
+PositionY=166
+ExtentX=15
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer34]
+Name=
+Text=<FRAVG>
+PositionX=106
+PositionY=178
+ExtentX=15
+ExtentY=8
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer35]
+Name=
+Text=<FR10L>
+PositionX=106
+PositionY=190
+ExtentX=15
+ExtentY=8
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer36]
+Name=
+Text=<FR01L>
+PositionX=106
+PositionY=202
+ExtentX=15
+ExtentY=8
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer37]
+Name=
+Text=FPS
+PositionX=106
+PositionY=166
+ExtentX=25
+ExtentY=9
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer38]
+Name=
+Text=FPS
+PositionX=106
+PositionY=178
+ExtentX=25
+ExtentY=9
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer39]
+Name=
+Text=FPS
+PositionX=106
+PositionY=190
+ExtentX=25
+ExtentY=9
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer40]
+Name=
+Text=FPS
+PositionX=106
+PositionY=202
+ExtentX=25
+ExtentY=9
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer41]
+Name=
+Text=%CPU clock%
+PositionX=106
+PositionY=41
+ExtentX=18
+ExtentY=10
+ExtentOrigin=0
+Size=85
+TextColor=FFFFFF
+[Layer42]
+Name=
+Text=<AI=CPU1 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=1
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+TextColor=ED1C24
+[Layer43]
+Name=CPU1
+Text=%CPU1 usage%
+PositionX=1
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer44]
+Name=
+Text=%CPU2 usage%
+PositionX=19
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer45]
+Name=
+Text=%CPU3 usage%
+PositionX=37
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer46]
+Name=
+Text=%CPU4 usage%
+PositionX=55
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer47]
+Name=
+Text=%CPU8 usage%
+PositionX=55
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer48]
+Name=
+Text=%CPU7 usage%
+PositionX=37
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer49]
+Name=
+Text=%CPU6 usage%
+PositionX=19
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer50]
+Name=
+Text=%CPU5 usage%
+PositionX=1
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF
+[Layer51]
+Name=
+Text=<RES>
+PositionX=106
+PositionY=133
+ExtentX=25
+ExtentY=7
+ExtentOrigin=0
+Size=85
+TextColor=FFFFFF
+[Layer52]
+Name=
+Text=%Driver%
+PositionX=106
+PositionY=118
+ExtentX=20
+ExtentY=10
+ExtentOrigin=0
+Size=85
+TextColor=FFFFFF
+[Layer53]
+Name=
+Text=<AI=RAM usage percent,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=57
+PositionY=105
+ExtentX=15
+ExtentY=14
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=80FF,,(RAM usage percent,0)
+[Layer54]
+Name=
+Text=%RAM usage percent%
+PositionX=57
+PositionY=105
+ExtentX=15
+ExtentY=14
+ExtentOrigin=4
+FixedAlignment=1
+Size=50
+TextColor=FFFFFF,0,74,FF0000,75,100(RAM usage percent,1)
+[Layer55]
+Name=
+Text=Mhz
+PositionX=106
+PositionY=41
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer56]
+Name=
+Text=W
+PositionX=106
+PositionY=29
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer57]
+Name=
+Text=�C
+PositionX=106
+PositionY=17
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=FF00,0,70,FF8000,70,90,FF0000,90,200(CPU temperature,1)
+[Layer58]
+Name=
+Text=API
+PositionX=81
+PositionY=143
+ExtentX=21
+ExtentY=9
+ExtentOrigin=3
+Size=85
+TextColor=FFFF80
+[Layer59]
+Name=
+Text=<AI=CPU2 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=19
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=ED1C24
+[Layer60]
+Name=
+Text=<APP>
+PositionX=106
+PositionY=143
+ExtentX=25
+ExtentY=9
+ExtentOrigin=0
+Size=85
+TextColor=FFFFFF
+[Layer61]
+Name=
+Text=<AI=CPU3 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=37
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=ED1C24
+[Layer62]
+Name=
+Text=<AI=CPU4 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=55
+PositionY=17
+ExtentX=17
+ExtentY=17
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=ED1C24
+[Layer63]
+Name=
+Text=<AI=CPU5 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=1
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=4
+FixedAlignment=1
+TextColor=ED1C24
+[Layer64]
+Name=
+Text=<AI=CPU6 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=19
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=ED1C24
+[Layer65]
+Name=
+Text=<AI=CPU7 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=37
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=ED1C24
+[Layer66]
+Name=
+Text=<AI=CPU8 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=55
+PositionY=35
+ExtentX=17
+ExtentY=17
+ExtentOrigin=0
+FixedAlignment=1
+TextColor=ED1C24
+[Layer67]
+Name=
+Text=TDP
+PositionX=81
+PositionY=29
+ExtentX=20
+ExtentY=10
+ExtentOrigin=0
+Size=85
+TextColor=ED1C24
+[Layer68]
+Name=
+Text=Clock
+PositionX=81
+PositionY=41
+ExtentX=20
+ExtentY=10
+ExtentOrigin=0
+Size=85
+TextColor=ED1C24
+[Layer69]
+Name=
+Text=%GPU1 temperature%
+PositionX=106
+PositionY=62
+ExtentX=16
+ExtentY=9
+ExtentOrigin=3
+FixedAlignment=1
+Size=90
+TextColor=FF00,0,65,FF8000,66,76,FF0000,77,100(GPU1 temperature,1)
+[Layer70]
+Name=
+Text=C
+PositionX=106
+PositionY=62
+ExtentX=25
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=FF00,0,65,FF8000,66,76,FF0000,77,100(GPU1 temperature,1)
+[Layer71]
+Name=
+Text=%GPU1 memory usage% MB / %VRAM%
+PositionX=1
+PositionY=68
+ExtentX=47
+ExtentY=9
+ExtentOrigin=4
+FixedAlignment=1
+Size=85
+TextColor=FFFFFF
+[Layer72]
+Name=
+Text=Mhz
+PositionX=106
+PositionY=84
+ExtentX=26
+ExtentY=10
+ExtentOrigin=8
+FixedAlignment=1
+Size=50
+TextColor=C0C0C0
+[Layer73]
+Name=
+Text=Mem
+PositionX=81
+PositionY=84
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=76B900
+[Layer74]
+Name=
+Text=<AI=GPU1 usage,0,0,0,100,0,126,128,128,11,4,0,0,0>
+PositionX=55
+PositionY=62
+ExtentX=15
+ExtentY=14
+ExtentOrigin=4
+FixedAlignment=1
+TextColor=76B900
+[Layer75]
+Name=
+Text=Frametime
+PositionX=1
+PositionY=172
+ExtentX=41
+ExtentY=5
+ExtentOrigin=3
+FixedAlignment=1
+Size=90
+TextColor=FFFF80
+[Layer76]
+Name=
+Text=Temp
+PositionX=81
+PositionY=17
+ExtentX=20
+ExtentY=10
+ExtentOrigin=0
+Size=85
+TextColor=ED1C24
+[Layer77]
+Name=
+Text=Temp
+PositionX=81
+PositionY=62
+ExtentX=21
+ExtentY=10
+ExtentOrigin=3
+FixedAlignment=1
+Size=85
+TextColor=76B900

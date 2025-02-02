@@ -13,7 +13,7 @@ Welcome to a collection of custom RivaTuner Statistics Server (RTSS) overlays th
 ## 🎮 **Overlays:**
 
 ### 🦸‍♂️ **Overwatch-Inspired Overlay**
-A stylish overlay inspired by Overwatch's design.  
+A low profile overlay inspired by Overwatch.  
 ![afbeelding](https://github.com/user-attachments/assets/d920ece8-a7d5-4642-bc6f-2fbf88fca656)
 
 ### 📊 **Advanced System Stats Overlay**
@@ -21,5 +21,5 @@ Shows as many system stats as possible for the power user who wants to monitor e
 ![afbeelding](https://github.com/user-attachments/assets/3f6595fb-f7cd-4f50-8c6e-802ef38cfae5)
 
 ### 🎮 **Xbox Gamebar-Inspired Overlay**
-Inspired by the clean design of the Xbox Gamebar, with easy-to-read stats.  
+Inspired by the design of the FPS counter of Xbox Gamebar, with easy-to-read stats.  
 ![afbeelding](https://github.com/user-attachments/assets/c9c5e728-c9e6-4596-ae2f-a3bac3a5b2d2)

@@ -1,6 +1,6 @@
 [Master]
 Implementation=2
-FontFace=Segoe UI Variable Display
+FontFace=Segoe UI Variable Small
 FontHeight=-8
 FontWeight=700
 ZoomRatio=4
@@ -486,7 +486,7 @@ PositionY=154
 ExtentX=69
 ExtentY=12
 ExtentOrigin=0
-TextColor=FFFFFF
+TextColor=FFFF80
 RefreshPeriod=500
 [Layer9]
 Name=
@@ -507,7 +507,7 @@ PositionY=191
 ExtentX=69
 ExtentY=21
 ExtentOrigin=0
-TextColor=FFFFFF
+TextColor=FFFF80
 RefreshPeriod=500
 [Layer11]
 Name=
@@ -642,7 +642,7 @@ TextColor=76B900
 Name=
 Text=Volt
 PositionX=81
-PositionY=96
+PositionY=107
 ExtentX=21
 ExtentY=10
 ExtentOrigin=3
@@ -651,9 +651,9 @@ Size=85
 TextColor=76B900
 [Layer24]
 Name=
-Text=TGP
+Text=Pwr
 PositionX=81
-PositionY=107
+PositionY=96
 ExtentX=21
 ExtentY=10
 ExtentOrigin=3

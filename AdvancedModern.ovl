@@ -14,7 +14,7 @@ PingAddr=
 [General]
 Sources=34
 Tables=5
-Layers=50
+Layers=44
 [Source0]
 Name=CPU usage
 Units=%
@@ -403,7 +403,7 @@ Text=
 PositionX=0
 PositionY=0
 ExtentX=137
-ExtentY=49
+ExtentY=52
 ExtentOrigin=4
 FixedAlignment=1
 BgndColor=80000000
@@ -413,19 +413,7 @@ BorderSize=1
 Name=Background
 Text=
 PositionX=0
-PositionY=50
-ExtentX=137
-ExtentY=34
-ExtentOrigin=4
-FixedAlignment=1
-BgndColor=80000000
-BorderColor=80FF
-BorderSize=1
-[Layer2]
-Name=Background
-Text=
-PositionX=0
-PositionY=139
+PositionY=107
 ExtentX=137
 ExtentY=65
 ExtentOrigin=4
@@ -433,11 +421,11 @@ FixedAlignment=1
 BgndColor=80000000
 BorderColor=FFFF80
 BorderSize=1
-[Layer3]
+[Layer2]
 Name=Background
 Text=
 PositionX=0
-PositionY=85
+PositionY=53
 ExtentX=137
 ExtentY=53
 ExtentOrigin=4
@@ -445,7 +433,7 @@ FixedAlignment=1
 BgndColor=80000000
 BorderColor=76B900
 BorderSize=1
-[Layer4]
+[Layer3]
 Name=CPU
 Text=%CPU%
 PositionX=0
@@ -456,7 +444,7 @@ ExtentOrigin=1
 TextColor=ED1C24
 BorderColor=ED1C24
 BorderSize=-1
-[Layer5]
+[Layer4]
 Name=
 Text=%CPU usage% w
 PositionX=0
@@ -467,18 +455,18 @@ ExtentOrigin=4
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
-[Layer6]
+[Layer5]
 Name=
 Text=%GPU%
 PositionX=1
-PositionY=86
+PositionY=54
 ExtentX=135
 ExtentY=12
 ExtentOrigin=4
 TextColor=76B900
 BorderColor=76B900
 BorderSize=-1
-[Layer7]
+[Layer6]
 Name=
 Text=%CPU temperature% c
 PositionX=0
@@ -490,35 +478,11 @@ FixedAlignment=1
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
-[Layer8]
-Name=
-Text=Memory
-PositionX=1
-PositionY=51
-ExtentX=135
-ExtentY=12
-ExtentOrigin=4
-TextColor=80FF
-BgndColor=80000000
-BorderColor=80FF
-BorderSize=-1
-[Layer9]
-Name=
-Text=%RAM usage% mb
-PositionX=0
-PositionY=63
-ExtentX=136
-ExtentY=13
-ExtentOrigin=4
-FixedAlignment=1
-Size=85
-TextColor=FFFFFF
-MarginLeft=2
-[Layer10]
+[Layer7]
 Name=
 Text=%GPU1 clock% mhz
 PositionX=0
-PositionY=99
+PositionY=67
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
@@ -526,22 +490,22 @@ FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginRight=2
-[Layer11]
+[Layer8]
 Name=
 Text=%GPU1 memory clock% mhz
 PositionX=0
-PositionY=119
+PositionY=87
 ExtentX=136
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
-[Layer12]
+[Layer9]
 Name=
 Text=%GPU1 voltage% mv
 PositionX=0
-PositionY=119
+PositionY=87
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
@@ -549,23 +513,23 @@ FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginRight=2
-[Layer13]
+[Layer10]
 Name=
 VisibilitySource=GPU1 power
 Text=%GPU1 power% w
 PositionX=0
-PositionY=99
+PositionY=67
 ExtentX=136
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
-[Layer14]
+[Layer11]
 Name=
 Text=Clock
 PositionX=0
-PositionY=107
+PositionY=75
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
@@ -573,22 +537,22 @@ FixedAlignment=1
 Size=65
 TextColor=76B900
 MarginRight=2
-[Layer15]
+[Layer12]
 Name=
 Text=TGP
 PositionX=0
-PositionY=107
+PositionY=75
 ExtentX=136
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=65
 TextColor=76B900
-[Layer16]
+[Layer13]
 Name=
 Text=1%
 PositionX=0
-PositionY=172
+PositionY=140
 ExtentX=137
 ExtentY=12
 ExtentOrigin=5
@@ -596,7 +560,7 @@ FixedAlignment=1
 Size=65
 TextColor=FFFF80
 MarginRight=2
-[Layer17]
+[Layer14]
 Name=
 Text=%CPU clock% mhz
 PositionX=0
@@ -607,54 +571,39 @@ ExtentOrigin=5
 Size=85
 TextColor=FFFFFF
 MarginRight=2
-[Layer18]
-Name=
-VisibilitySource=CPU1 usage
-Text=<AI=CPU1 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=0
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,59,FF0000,50,100(CPU1 usage,1)
-MarginLeft=1
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer19]
+[Layer15]
 Name=
 Text=<RES>
 PositionX=0
-PositionY=184
+PositionY=152
 ExtentX=137
 ExtentY=12
 ExtentOrigin=4
 Size=85
 TextColor=FFFFFF
-[Layer20]
+[Layer16]
 Name=
 Text=%Driver%
 PositionX=0
-PositionY=184
+PositionY=152
 ExtentX=137
 ExtentY=12
 ExtentOrigin=3
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
-[Layer21]
+[Layer17]
 Name=
 Text=<APP>
 PositionX=0
-PositionY=184
+PositionY=152
 ExtentX=137
 ExtentY=12
 ExtentOrigin=5
 Size=85
 TextColor=FFFFFF
 MarginRight=2
-[Layer22]
+[Layer18]
 Name=
 Text=TDP
 PositionX=0
@@ -664,7 +613,7 @@ ExtentY=12
 ExtentOrigin=4
 Size=65
 TextColor=ED1C24
-[Layer23]
+[Layer19]
 Name=
 Text=Clock
 PositionX=0
@@ -675,11 +624,11 @@ ExtentOrigin=5
 Size=65
 TextColor=ED1C24
 MarginRight=2
-[Layer24]
+[Layer20]
 Name=
 Text=Temp
 PositionX=0
-PositionY=107
+PositionY=75
 ExtentX=136
 ExtentY=12
 ExtentOrigin=3
@@ -687,7 +636,7 @@ FixedAlignment=1
 Size=65
 TextColor=76B900
 MarginLeft=2
-[Layer25]
+[Layer21]
 Name=
 Text=Temp
 PositionX=0
@@ -698,11 +647,11 @@ ExtentOrigin=3
 Size=65
 TextColor=ED1C24
 MarginLeft=2
-[Layer26]
+[Layer22]
 Name=
 Text=%Framerate%
 PositionX=0
-PositionY=165
+PositionY=133
 ExtentX=137
 ExtentY=12
 ExtentOrigin=3
@@ -710,11 +659,11 @@ FixedAlignment=1
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
-[Layer27]
+[Layer23]
 Name=
 Text=FPS
 PositionX=0
-PositionY=172
+PositionY=140
 ExtentX=137
 ExtentY=12
 ExtentOrigin=3
@@ -722,125 +671,22 @@ FixedAlignment=1
 Size=65
 TextColor=FFFF80
 MarginLeft=2
-[Layer28]
-Name=
-VisibilitySource=CPU2 usage
-Text=<AI=CPU2 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=17
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,50,FF8000,50,75,FF0000,75,100(CPU2 usage,1)
-MarginLeft=1
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer29]
-Name=
-VisibilitySource=CPU3 usage
-Text=<AI=CPU3 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=34
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,49,FF0000,50,100(CPU3 usage,1)
-MarginLeft=1
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer30]
-Name=
-VisibilitySource=CPU4 usage
-Text=<AI=CPU4 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=51
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,49,FF0000,50,100(CPU4 usage,1)
-MarginLeft=1
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer31]
-Name=
-VisibilitySource=CPU5 usage
-Text=<AI=CPU5 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=68
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,49,FF0000,50,100(CPU5 usage,1)
-MarginLeft=1
-MarginRight=1
-MarginBottom=1
-[Layer32]
-Name=
-VisibilitySource=CPU6 usage
-Text=<AI=CPU6 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=85
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,49,FF0000,50,100(CPU6 usage,1)
-MarginLeft=1
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer33]
-Name=
-VisibilitySource=CPU7 usage
-Text=<AI=CPU7 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=102
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,49,FF0000,50,100(CPU7 usage,1)
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer34]
-Name=
-VisibilitySource=CPU8 usage
-Text=<AI=CPU8 usage,0,0,0,100,0,128,128,128,11,4,0,0,0>
-PositionX=119
-PositionY=32
-ExtentX=17
-ExtentY=15
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFFFF,0,49,FF0000,50,100(CPU8 usage,1)
-MarginLeft=1
-MarginTop=1
-MarginRight=1
-MarginBottom=1
-[Layer35]
+[Layer24]
 Name=
 Text=Mem
 PositionX=0
-PositionY=126
+PositionY=94
 ExtentX=136
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=65
 TextColor=76B900
-[Layer36]
+[Layer25]
 Name=
 Text=Volt
 PositionX=0
-PositionY=126
+PositionY=94
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
@@ -848,11 +694,11 @@ FixedAlignment=1
 Size=65
 TextColor=76B900
 MarginRight=2
-[Layer37]
+[Layer26]
 Name=
 Text=VRAM
 PositionX=0
-PositionY=126
+PositionY=94
 ExtentX=136
 ExtentY=12
 ExtentOrigin=3
@@ -860,11 +706,11 @@ FixedAlignment=1
 Size=65
 TextColor=76B900
 MarginLeft=2
-[Layer38]
+[Layer27]
 Name=
 Text=%GPU1 memory usage% mb
 PositionX=0
-PositionY=119
+PositionY=87
 ExtentX=136
 ExtentY=12
 ExtentOrigin=3
@@ -872,33 +718,33 @@ FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginLeft=2
-[Layer39]
+[Layer28]
 Name=
 Text=<EXE>
 PositionX=1
-PositionY=140
+PositionY=108
 ExtentX=135
 ExtentY=12
 ExtentOrigin=4
 TextColor=FFFF80
 BorderColor=FFFF80
 BorderSize=-1
-[Layer40]
+[Layer29]
 Name=
 Text=Res
 PositionX=0
-PositionY=191
+PositionY=159
 ExtentX=137
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=65
 TextColor=FFFF80
-[Layer41]
+[Layer30]
 Name=
 Text=%Framerate 1% Low% fps
 PositionX=0
-PositionY=165
+PositionY=133
 ExtentX=137
 ExtentY=12
 ExtentOrigin=5
@@ -906,21 +752,21 @@ FixedAlignment=1
 Size=85
 TextColor=FFFFFF
 MarginRight=2
-[Layer42]
+[Layer31]
 Name=
 Text=<G=Frametime,-16,-1,1,0,100,0>
 PositionX=35
-PositionY=153
+PositionY=121
 ExtentX=86
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 TextColor=FFFF80
-[Layer43]
+[Layer32]
 Name=
 Text=%Frametime% ms
 PositionX=0
-PositionY=153
+PositionY=121
 ExtentX=137
 ExtentY=12
 ExtentOrigin=3
@@ -928,22 +774,22 @@ FixedAlignment=1
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
-[Layer44]
+[Layer33]
 Name=
 Text=%Framerate Avg% fps
 PositionX=0
-PositionY=165
+PositionY=133
 ExtentX=137
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
-[Layer45]
+[Layer34]
 Name=
 Text=API
 PositionX=0
-PositionY=191
+PositionY=159
 ExtentX=137
 ExtentY=12
 ExtentOrigin=5
@@ -951,11 +797,11 @@ FixedAlignment=1
 Size=65
 TextColor=FFFF80
 MarginRight=2
-[Layer46]
+[Layer35]
 Name=
 Text=Driver
 PositionX=0
-PositionY=191
+PositionY=159
 ExtentX=137
 ExtentY=12
 ExtentOrigin=3
@@ -963,33 +809,22 @@ FixedAlignment=1
 Size=65
 TextColor=FFFF80
 MarginLeft=2
-[Layer47]
+[Layer36]
 Name=
 Text=Avg
 PositionX=0
-PositionY=172
+PositionY=140
 ExtentX=137
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=65
 TextColor=FFFF80
-[Layer48]
-Name=
-Text=Available
-PositionX=0
-PositionY=71
-ExtentX=136
-ExtentY=13
-ExtentOrigin=4
-FixedAlignment=1
-Size=65
-TextColor=80FF
-[Layer49]
+[Layer37]
 Name=
 Text=%GPU1 temperature% c
 PositionX=0
-PositionY=99
+PositionY=67
 ExtentX=136
 ExtentY=12
 ExtentOrigin=0
@@ -997,3 +832,69 @@ FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginLeft=2
+[Layer38]
+Name=
+Text=RAM
+PositionX=0
+PositionY=39
+ExtentX=136
+ExtentY=12
+ExtentOrigin=3
+Size=65
+TextColor=ED1C24
+MarginLeft=2
+[Layer39]
+Name=
+Text=%CPU usage%%
+PositionX=0
+PositionY=0
+ExtentX=136
+ExtentY=12
+ExtentOrigin=5
+Size=85
+TextColor=ED1C24
+MarginRight=2
+[Layer40]
+Name=
+Text=%RAM usage% mb
+PositionX=0
+PositionY=32
+ExtentX=136
+ExtentY=12
+ExtentOrigin=3
+Size=85
+TextColor=FFFFFF
+MarginLeft=2
+[Layer41]
+Name=
+Text=%RAM usage percent%%
+PositionX=0
+PositionY=32
+ExtentX=136
+ExtentY=12
+ExtentOrigin=5
+Size=85
+TextColor=FFFFFF
+MarginRight=2
+[Layer42]
+Name=
+Text=RAM usage
+PositionX=0
+PositionY=39
+ExtentX=136
+ExtentY=12
+ExtentOrigin=5
+Size=65
+TextColor=ED1C24
+MarginLeft=2
+[Layer43]
+Name=
+Text=%GPU1 usage%%
+PositionX=0
+PositionY=54
+ExtentX=136
+ExtentY=12
+ExtentOrigin=5
+Size=85
+TextColor=76B900
+MarginRight=2

@@ -455,6 +455,7 @@ ExtentOrigin=4
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
+MarginBottom=4
 [Layer5]
 Name=
 Text=%GPU%
@@ -550,7 +551,7 @@ Size=65
 TextColor=76B900
 [Layer13]
 Name=
-Text=1%
+Text=1% low
 PositionX=0
 PositionY=139
 ExtentX=137
@@ -613,7 +614,7 @@ ExtentY=20
 ExtentOrigin=4
 Size=65
 TextColor=ED1C24
-MarginBottom=6
+MarginBottom=8
 [Layer19]
 Name=
 Text=Clock
@@ -743,7 +744,7 @@ Size=65
 TextColor=FFFF80
 [Layer30]
 Name=
-Text=%Framerate 1% Low% fps
+Text=%Framerate 1% Low%
 PositionX=0
 PositionY=132
 ExtentX=137
@@ -756,7 +757,7 @@ MarginRight=2
 [Layer31]
 Name=
 Text=<G=Frametime,-16,-1,1,0,100,0>
-PositionX=35
+PositionX=34
 PositionY=120
 ExtentX=86
 ExtentY=12
@@ -777,7 +778,7 @@ TextColor=FFFFFF
 MarginLeft=2
 [Layer33]
 Name=
-Text=%Framerate Avg% fps
+Text=%Framerate Avg%
 PositionX=0
 PositionY=132
 ExtentX=137

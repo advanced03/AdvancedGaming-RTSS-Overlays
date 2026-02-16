@@ -36,4 +36,4 @@ Clean, easy-to-read overlay inspired by the **Xbox Gamebar FPS counter**.
 
 ### 🆕 Modern Advanced Overlay
 A sleek, modern take on the Advanced overlay with updated design and readability.  
-![Modern Advanced Overlay](https://github.com/user-attachments/assets/c85c2afb-8769-4fa9-bfdb-aded25d0b739
+![Modern Advanced Overlay](https://github.com/user-attachments/assets/c85c2afb-8769-4fa9-bfdb-aded25d0b739)

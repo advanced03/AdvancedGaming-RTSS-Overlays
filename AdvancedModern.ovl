@@ -14,7 +14,7 @@ PingAddr=
 [General]
 Sources=34
 Tables=5
-Layers=44
+Layers=45
 [Source0]
 Name=CPU usage
 Units=%
@@ -535,7 +535,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=76B900
 MarginRight=2
 [Layer12]
@@ -547,7 +547,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=76B900
 [Layer13]
 Name=
@@ -558,7 +558,7 @@ ExtentX=137
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=FFFF80
 MarginRight=2
 [Layer14]
@@ -612,7 +612,7 @@ PositionY=31
 ExtentX=136
 ExtentY=20
 ExtentOrigin=4
-Size=65
+Size=50
 TextColor=ED1C24
 MarginBottom=8
 [Layer19]
@@ -623,7 +623,7 @@ PositionY=19
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
-Size=65
+Size=50
 TextColor=ED1C24
 MarginRight=2
 [Layer20]
@@ -635,7 +635,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=76B900
 MarginLeft=2
 [Layer21]
@@ -646,7 +646,7 @@ PositionY=19
 ExtentX=136
 ExtentY=12
 ExtentOrigin=3
-Size=65
+Size=50
 TextColor=ED1C24
 MarginLeft=2
 [Layer22]
@@ -656,11 +656,10 @@ PositionX=0
 PositionY=132
 ExtentX=137
 ExtentY=12
-ExtentOrigin=3
+ExtentOrigin=4
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
-MarginLeft=2
 [Layer23]
 Name=
 Text=FPS
@@ -668,11 +667,10 @@ PositionX=0
 PositionY=139
 ExtentX=137
 ExtentY=12
-ExtentOrigin=3
+ExtentOrigin=4
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=FFFF80
-MarginLeft=2
 [Layer24]
 Name=
 Text=Mem
@@ -682,7 +680,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=76B900
 [Layer25]
 Name=
@@ -693,7 +691,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=76B900
 MarginRight=2
 [Layer26]
@@ -705,7 +703,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=76B900
 MarginLeft=2
 [Layer27]
@@ -722,7 +720,7 @@ TextColor=FFFFFF
 MarginLeft=2
 [Layer28]
 Name=
-Text=<EXE>
+Text=
 PositionX=1
 PositionY=107
 ExtentX=135
@@ -740,7 +738,7 @@ ExtentX=137
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=FFFF80
 [Layer30]
 Name=
@@ -783,10 +781,11 @@ PositionX=0
 PositionY=132
 ExtentX=137
 ExtentY=12
-ExtentOrigin=4
+ExtentOrigin=3
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
+MarginLeft=2
 [Layer34]
 Name=
 Text=API
@@ -796,7 +795,7 @@ ExtentX=137
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=FFFF80
 MarginRight=2
 [Layer35]
@@ -808,7 +807,7 @@ ExtentX=137
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=FFFF80
 MarginLeft=2
 [Layer36]
@@ -818,10 +817,11 @@ PositionX=0
 PositionY=139
 ExtentX=137
 ExtentY=12
-ExtentOrigin=4
+ExtentOrigin=3
 FixedAlignment=1
-Size=65
+Size=50
 TextColor=FFFF80
+MarginLeft=2
 [Layer37]
 Name=
 Text=%GPU1 temperature% c
@@ -842,7 +842,7 @@ PositionY=38
 ExtentX=136
 ExtentY=12
 ExtentOrigin=3
-Size=65
+Size=50
 TextColor=8080FF
 MarginLeft=2
 [Layer39]
@@ -854,7 +854,7 @@ ExtentX=136
 ExtentY=12
 ExtentOrigin=5
 Size=85
-TextColor=ED1C24
+TextColor=FFFFFF
 MarginRight=2
 [Layer40]
 Name=
@@ -886,17 +886,28 @@ PositionY=38
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
-Size=65
+Size=50
 TextColor=8080FF
-MarginLeft=2
+MarginRight=2
 [Layer43]
 Name=
 Text=%GPU1 usage%%
 PositionX=0
-PositionY=53
+PositionY=52
 ExtentX=136
 ExtentY=12
 ExtentOrigin=5
 Size=85
-TextColor=76B900
+TextColor=FFFFFF
 MarginRight=2
+[Layer44]
+Name=
+Text=<EXE>
+PositionX=1
+PositionY=107
+ExtentX=135
+ExtentY=12
+ExtentOrigin=4
+TextColor=FFFF80
+BorderColor=FFFF80
+BorderSize=-1

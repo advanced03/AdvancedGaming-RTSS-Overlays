@@ -401,351 +401,359 @@ Line1Cell0Source=Framerate 0.1% Low
 Name=Background
 Text=
 PositionX=0
-PositionY=0
-ExtentX=137
-ExtentY=51
-ExtentOrigin=4
-FixedAlignment=1
-BgndColor=80000000
-BorderColor=ED1C24
-BorderSize=1
-[Layer1]
-Name=Background
-Text=
-PositionX=0
-PositionY=106
-ExtentX=137
-ExtentY=65
+PositionY=113
+ExtentX=115
+ExtentY=61
 ExtentOrigin=4
 FixedAlignment=1
 BgndColor=80000000
 BorderColor=FFFF80
 BorderSize=1
+[Layer1]
+Name=CPU background
+Text=
+PositionX=0
+PositionY=11
+ExtentX=115
+ExtentY=20
+ExtentOrigin=4
+FixedAlignment=1
+BgndColor=80000000
+BorderColor=ED1C24
+BorderSize=1
 [Layer2]
 Name=Background
 Text=
 PositionX=0
-PositionY=52
-ExtentX=137
-ExtentY=53
+PositionY=31
+ExtentX=115
+ExtentY=51
 ExtentOrigin=4
 FixedAlignment=1
 BgndColor=80000000
 BorderColor=76B900
 BorderSize=1
 [Layer3]
-Name=CPU
+Name=CPU background
+Text=
+PositionX=0
+PositionY=93
+ExtentX=115
+ExtentY=20
+ExtentOrigin=4
+FixedAlignment=1
+BgndColor=80000000
+BorderColor=8080FF
+BorderSize=1
+[Layer4]
+Name=CPU name
 Text=%CPU%
 PositionX=0
 PositionY=0
-ExtentX=136
+ExtentX=115
 ExtentY=12
 ExtentOrigin=1
+Size=85
 TextColor=ED1C24
 BorderColor=ED1C24
-BorderSize=-1
-[Layer4]
-Name=
-Text=%CPU usage% w
+BorderSize=1
+[Layer5]
+Name=CPU power
+VisibilitySource=CPU power
+Text=%CPU power% w
 PositionX=0
 PositionY=12
-ExtentX=136
-ExtentY=39
+ExtentX=114
+ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
-MarginBottom=4
-[Layer5]
-Name=
-Text=%GPU%
-PositionX=1
-PositionY=53
-ExtentX=135
-ExtentY=12
-ExtentOrigin=4
-TextColor=76B900
-BorderColor=76B900
-BorderSize=-1
 [Layer6]
 Name=
+Text=%GPU%
+PositionX=0
+PositionY=32
+ExtentX=115
+ExtentY=12
+ExtentOrigin=4
+Size=85
+TextColor=76B900
+BorderColor=76B900
+BorderSize=1
+[Layer7]
+Name=CPU temp
+VisibilitySource=CPU temperature
 Text=%CPU temperature% c
 PositionX=0
 PositionY=12
-ExtentX=136
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
-[Layer7]
-Name=
+[Layer8]
+Name=GPU clock
+VisibilitySource=GPU1 clock
 Text=%GPU1 clock% mhz
 PositionX=0
-PositionY=66
-ExtentX=136
+PositionY=44
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginRight=2
-[Layer8]
-Name=
+[Layer9]
+Name=VRAM clock
+VisibilitySource=GPU1 memory clock
 Text=%GPU1 memory clock% mhz
 PositionX=0
-PositionY=86
-ExtentX=136
+PositionY=63
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
-[Layer9]
-Name=
+[Layer10]
+Name=GPU voltage
+VisibilitySource=GPU1 voltage
 Text=%GPU1 voltage% mv
 PositionX=0
-PositionY=86
-ExtentX=136
+PositionY=63
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginRight=2
-[Layer10]
-Name=
+[Layer11]
+Name=GPU wattage
 VisibilitySource=GPU1 power
 Text=%GPU1 power% w
 PositionX=0
-PositionY=66
-ExtentX=136
+PositionY=44
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
-[Layer11]
-Name=
+[Layer12]
+Name=GPU clock label
 Text=Clock
 PositionX=0
-PositionY=74
-ExtentX=136
+PositionY=51
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
 Size=50
 TextColor=76B900
 MarginRight=2
-[Layer12]
-Name=
+[Layer13]
+Name=TGP label
 Text=TGP
 PositionX=0
-PositionY=74
-ExtentX=136
+PositionY=51
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=50
 TextColor=76B900
-[Layer13]
-Name=
+[Layer14]
+Name=1% low label
 Text=1% low
 PositionX=0
-PositionY=139
-ExtentX=137
+PositionY=144
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
 Size=50
 TextColor=FFFF80
 MarginRight=2
-[Layer14]
-Name=
+[Layer15]
+Name=CPU clock
+VisibilitySource=CPU clock
 Text=%CPU clock% mhz
 PositionX=0
 PositionY=12
-ExtentX=136
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 Size=85
 TextColor=FFFFFF
 MarginRight=2
-[Layer15]
-Name=
+[Layer16]
+Name=Resolution
 Text=<RES>
 PositionX=0
-PositionY=151
-ExtentX=137
+PositionY=156
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 Size=85
 TextColor=FFFFFF
-[Layer16]
-Name=
+[Layer17]
+Name=GPU driver ver
 Text=%Driver%
 PositionX=0
-PositionY=151
-ExtentX=137
+PositionY=156
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
-[Layer17]
-Name=
+[Layer18]
+Name=APi
 Text=<APP>
 PositionX=0
-PositionY=151
-ExtentX=137
+PositionY=156
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 Size=85
 TextColor=FFFFFF
 MarginRight=2
-[Layer18]
-Name=
+[Layer19]
+Name=CPU power label
 Text=TDP
 PositionX=0
-PositionY=31
-ExtentX=136
-ExtentY=20
+PositionY=19
+ExtentX=114
+ExtentY=12
 ExtentOrigin=4
 Size=50
 TextColor=ED1C24
-MarginBottom=8
-[Layer19]
-Name=
+[Layer20]
+Name=CPU clock label
 Text=Clock
 PositionX=0
 PositionY=19
-ExtentX=136
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 Size=50
 TextColor=ED1C24
 MarginRight=2
-[Layer20]
-Name=
+[Layer21]
+Name=GPU temp label
 Text=Temp
 PositionX=0
-PositionY=74
-ExtentX=136
+PositionY=51
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
 Size=50
 TextColor=76B900
 MarginLeft=2
-[Layer21]
-Name=
+[Layer22]
+Name=CPU temp label
 Text=Temp
 PositionX=0
 PositionY=19
-ExtentX=136
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 Size=50
 TextColor=ED1C24
 MarginLeft=2
-[Layer22]
-Name=
+[Layer23]
+Name=FPS
 Text=%Framerate%
 PositionX=0
-PositionY=132
-ExtentX=137
+PositionY=137
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
-[Layer23]
-Name=
+[Layer24]
+Name=FPS label
 Text=FPS
 PositionX=0
-PositionY=139
-ExtentX=137
+PositionY=144
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=50
 TextColor=FFFF80
-[Layer24]
-Name=
+[Layer25]
+Name=VRAM clock label
 Text=Mem
 PositionX=0
-PositionY=93
-ExtentX=136
+PositionY=70
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=50
 TextColor=76B900
-[Layer25]
-Name=
+[Layer26]
+Name=GPU voltage label
 Text=Volt
 PositionX=0
-PositionY=93
-ExtentX=136
+PositionY=70
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
 Size=50
 TextColor=76B900
 MarginRight=2
-[Layer26]
-Name=
+[Layer27]
+Name=VRAM label
 Text=VRAM
 PositionX=0
-PositionY=93
-ExtentX=136
+PositionY=70
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
 Size=50
 TextColor=76B900
 MarginLeft=2
-[Layer27]
-Name=
+[Layer28]
+Name=VRAM usage
+VisibilitySource=GPU1 memory usage
 Text=%GPU1 memory usage% mb
 PositionX=0
-PositionY=86
-ExtentX=136
+PositionY=63
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
 Size=90
 TextColor=FFFFFF
 MarginLeft=2
-[Layer28]
-Name=
-Text=
-PositionX=1
-PositionY=107
-ExtentX=135
-ExtentY=12
-ExtentOrigin=4
-TextColor=FFFF80
-BorderColor=FFFF80
-BorderSize=-1
 [Layer29]
-Name=
+Name=Resolution label
 Text=Res
 PositionX=0
-PositionY=158
-ExtentX=137
+PositionY=162
+ExtentX=114
 ExtentY=12
 ExtentOrigin=4
 FixedAlignment=1
 Size=50
 TextColor=FFFF80
 [Layer30]
-Name=
+Name=1% lows
 Text=%Framerate 1% Low%
 PositionX=0
-PositionY=132
-ExtentX=137
+PositionY=137
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
@@ -753,33 +761,33 @@ Size=85
 TextColor=FFFFFF
 MarginRight=2
 [Layer31]
-Name=
-Text=<G=Frametime,-16,-1,1,0,100,0>
-PositionX=34
-PositionY=120
-ExtentX=86
-ExtentY=12
-ExtentOrigin=4
-FixedAlignment=1
-TextColor=FFFF80
-[Layer32]
-Name=
+Name=Frametime
 Text=%Frametime% ms
 PositionX=0
-PositionY=120
-ExtentX=137
+PositionY=125
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
+[Layer32]
+Name=Frametime graph
+Text=<G=Frametime,-12,-1,1,0,100,0>
+PositionX=37
+PositionY=125
+ExtentX=60
+ExtentY=12
+ExtentOrigin=4
+FixedAlignment=1
+TextColor=FFFF80
 [Layer33]
-Name=
+Name=FPS avg
 Text=%Framerate Avg%
 PositionX=0
-PositionY=132
-ExtentX=137
+PositionY=137
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
@@ -787,11 +795,11 @@ Size=85
 TextColor=FFFFFF
 MarginLeft=2
 [Layer34]
-Name=
+Name=API label
 Text=API
 PositionX=0
-PositionY=158
-ExtentX=137
+PositionY=162
+ExtentX=114
 ExtentY=12
 ExtentOrigin=5
 FixedAlignment=1
@@ -799,11 +807,11 @@ Size=50
 TextColor=FFFF80
 MarginRight=2
 [Layer35]
-Name=
+Name=Driver label
 Text=Driver
 PositionX=0
-PositionY=158
-ExtentX=137
+PositionY=162
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
@@ -811,11 +819,11 @@ Size=50
 TextColor=FFFF80
 MarginLeft=2
 [Layer36]
-Name=
+Name=FPS avg label
 Text=Avg
 PositionX=0
-PositionY=139
-ExtentX=137
+PositionY=144
+ExtentX=114
 ExtentY=12
 ExtentOrigin=3
 FixedAlignment=1
@@ -823,11 +831,12 @@ Size=50
 TextColor=FFFF80
 MarginLeft=2
 [Layer37]
-Name=
+Name=GPU temp
+VisibilitySource=GPU1 temperature
 Text=%GPU1 temperature% c
 PositionX=0
-PositionY=66
-ExtentX=136
+PositionY=44
+ExtentX=114
 ExtentY=12
 ExtentOrigin=0
 FixedAlignment=1
@@ -835,79 +844,83 @@ Size=90
 TextColor=FFFFFF
 MarginLeft=2
 [Layer38]
-Name=
-Text=RAM
+Name=RAM label
+Text=Free
 PositionX=0
-PositionY=38
-ExtentX=136
+PositionY=100
+ExtentX=114
 ExtentY=12
-ExtentOrigin=3
+ExtentOrigin=4
 Size=50
 TextColor=8080FF
 MarginLeft=2
 [Layer39]
-Name=
+Name=CPU Usage %
 Text=%CPU usage%%
 PositionX=0
 PositionY=0
-ExtentX=136
+ExtentX=114
 ExtentY=12
-ExtentOrigin=5
-Size=85
+ExtentOrigin=2
+Size=75
 TextColor=FFFFFF
 MarginRight=2
 [Layer40]
-Name=
+Name=RAM MB's
+VisibilitySource=RAM usage
 Text=%RAM usage% mb
 PositionX=0
-PositionY=31
-ExtentX=136
+PositionY=93
+ExtentX=114
 ExtentY=12
-ExtentOrigin=3
+ExtentOrigin=4
 Size=85
 TextColor=FFFFFF
 MarginLeft=2
 [Layer41]
-Name=
-Text=%RAM usage percent%%
+Name=RAM percentage
+VisibilitySource=RAM usage percent
+Text=%RAM usage percent% %
 PositionX=0
-PositionY=31
-ExtentX=136
+PositionY=82
+ExtentX=114
 ExtentY=12
-ExtentOrigin=5
-Size=85
+ExtentOrigin=2
+Size=75
 TextColor=FFFFFF
 MarginRight=2
 [Layer42]
 Name=
-Text=RAM usage
+Text=%GPU1 usage%%
 PositionX=0
-PositionY=38
-ExtentX=136
+PositionY=32
+ExtentX=115
 ExtentY=12
-ExtentOrigin=5
-Size=50
-TextColor=8080FF
+ExtentOrigin=2
+Size=75
+TextColor=FFFFFF
 MarginRight=2
 [Layer43]
 Name=
-Text=%GPU1 usage%%
-PositionX=0
-PositionY=52
-ExtentX=136
-ExtentY=12
-ExtentOrigin=5
-Size=85
-TextColor=FFFFFF
-MarginRight=2
-[Layer44]
-Name=
 Text=<EXE>
-PositionX=1
-PositionY=107
-ExtentX=135
+PositionX=0
+PositionY=113
+ExtentX=115
 ExtentY=12
 ExtentOrigin=4
+Size=85
 TextColor=FFFF80
 BorderColor=FFFF80
-BorderSize=-1
+BorderSize=1
+[Layer44]
+Name=CPU name
+Text=RAM
+PositionX=0
+PositionY=82
+ExtentX=115
+ExtentY=12
+ExtentOrigin=1
+Size=85
+TextColor=8080FF
+BorderColor=8080FF
+BorderSize=1

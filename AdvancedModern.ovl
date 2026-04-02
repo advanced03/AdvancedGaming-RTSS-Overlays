@@ -833,7 +833,7 @@ TextColor=FFFFFF
 MarginLeft=2
 [Layer37]
 Name=RAM label
-Text=Free
+Text=Used
 PositionX=0
 PositionY=101
 ExtentX=114
